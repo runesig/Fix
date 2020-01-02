@@ -3,7 +3,7 @@ OBJECT Table 27 Item
   OBJECT-PROPERTIES
   {
     Date=02.01.20;
-    Time=14:53:16;
+    Time=14:59:32;
     Modified=Yes;
     Version List=NAVW17.10.00.45254,FIX;
   }
@@ -1578,6 +1578,7 @@ OBJECT Table 27 Item
                                                               NOR=ID-kode];
                                                    Editable=No }
     { 50000;  ;New Field           ;Code10         }
+    { 50001;  ;One More Field      ;Text30         }
     { 99000750;;Routing No.        ;Code20        ;TableRelation="Routing Header";
                                                    OnValidate=BEGIN
                                                                 IF "Routing No." <> '' THEN
